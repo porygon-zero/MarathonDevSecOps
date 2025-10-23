@@ -2,6 +2,7 @@ name: Static Scans
 on:
   #push: # not on push for the training (just manual)
   workflow_dispatch: # to allow running manually
+  push:
 permissions:
   contents: read
 
